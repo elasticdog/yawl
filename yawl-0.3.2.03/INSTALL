@@ -1,0 +1,17 @@
+                       Installation Instructions
+
+Examine the Makefile, and modify it if necessary (it will likely work
+as is.
+
+
+To build and install everything (the word list, utilities, and man pages):
+   make
+   make install (as root)
+
+
+To install only the word list:
+   make install_list (as root)
+
+
+Note: The word list installs into /usr/share/dict. Most standard Linux
+distributions already have this directory.

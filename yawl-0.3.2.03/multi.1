@@ -1,0 +1,62 @@
+.TH MULTI "1" "Version 0.2"
+.SH NAME
+.B multi
+\- Multiple word anagramming utility
+.SH SYNOPSIS
+.B multi
+.RB [ "letter set" ]
+.RB [ "number of words" ]
+.RB < "word file" >
+
+.SH DESCRIPTION
+.B multi
+finds multiple word "anagrams" (permissible word permutations) of a given
+letter set.  The underscore (_) represents "wild card" letters, analogous
+to blank tiles in a familiar commercial word construction board game.
+The output is printed to
+.I stdout
+and may of course be redirected.
+
+Examples:
+
+.I multi etaoinshrdlu 2
+finds all 2-word anagrams of "etaoinshrdlu" using the default word list,
+/usr/share/dict/word.list, as the reference list.
+
+.I multi orw_gin 2
+finds all 2-word anagrams of "orw (wild card) gin" using the default word list,
+/usr/share/dict/word.list, as the reference list.
+
+.I multi abcdefgh 3 /usr/share/dict/linux.words
+finds all 3-word anagrams of "abcdefgh" using /usr/share/dict/linux.words as the reference list.
+
+Note that anagram multiples greater than 3 slow program execution considerably.
+
+.SH OPTIONS
+None.
+
+
+.SH FILES
+.B /usr/share/dict/word.list
+The word list installed from the
+.I yawl
+package, which is the default list used if none other is specified.
+Any alphabetized ASCII list in "standard" form, i.e., one word per line, would
+also work.
+
+.B anagram_.xxx
+Intermediate files created during program run, but deleted upon termination.
+
+
+
+.SH SEE ALSO
+anagram(1)
+
+
+.SH BUGS
+Runs too slowly. Optimization and fine tuning needed.
+
+
+
+.SH AUTHOR
+Mendel Cooper - <thegrendel@theriver.com>

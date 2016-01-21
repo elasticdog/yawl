@@ -1,0 +1,60 @@
+.TH ANAGRAM "1" "Version 0.2"
+.SH NAME
+.B anagram
+\- Anagramming utility
+.SH SYNOPSIS
+.B anagram
+.RB [ "letter set" ]
+.RB < "word file" >
+
+.SH DESCRIPTION
+.B anagram
+finds all "anagrams" (permissible word permutations) of a given letter set.
+The underscore (_) represents "wild card" letters, analogous to blank tiles in
+a familiar commercial word construction board game.
+The output is printed to
+.I stdout
+and may of course be redirected.
+
+Examples:
+
+.I anagram etaoinshrdlu
+anagrams "etaoinshrdlu" using the default word list, /usr/share/dict/word.list,
+as the reference list.
+
+.I anagram rwo_gni
+anagrams "rwo (wild card) gni" using the default word list, /usr/share/dict/word.list,
+as the reference list.
+
+.I anagram abcdefgh /usr/share/dict/linux.words
+anagrams "abcdefgh" using /usr/share/dict/linux.words as the reference list.
+
+This utility is intended as a tool for word gamers.
+
+.SH OPTIONS
+None.
+
+
+.SH FILES
+.B /usr/share/dict/word.list
+
+The word list installed from the
+.I yawl
+package, which is the default list used if none other is specified.
+Any alphabetized ASCII list in "standard" form, i.e., one word per line, would
+also work.
+
+
+.SH SEE ALSO
+multi(1)
+
+
+.SH BUGS
+The binary search function in
+.I anagram.c
+could stand some fine tuning.
+
+
+
+.SH AUTHOR
+Mendel Cooper - <thegrendel@theriver.com>

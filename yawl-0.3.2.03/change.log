@@ -1,0 +1,54 @@
+                            Change Log
+
+Version 0.1 [first release]
+07/04/99
+
+
+Version 0.2
+04/28/00
+
+The master word list, "word.list", completely rebuilt to track changes
+in the updated millennial release of "ENABLE2K" list.
+
+Source code for anagramming and multiple-word anagramming utilities added to
+package.
+
+README file revised and updated.
+
+
+Version 0.2.01
+06/24/03
+
+Updated master word list.
+Updated Makefile.
+
+Added "wstrings.sh" shell script to package.
+
+
+Version 0.3.1
+10/05/05
+
+Minor update to signature word list, and to master word list.
+Updated Makefile.
+Fixed anagram.c and multi.c to keep a stupid error in
+string giving author's name from crashing the build (duhhh!).
+
+
+Version 0.3.2
+10/06/04
+
+Had to fix Makefile to instill in correct dictionary directory
+(double-duhh!).
+
+
+Version 0.3.2.02
+05/12/08
+
+New entries in word.list.
+Minor changes to man pages.
+
+
+Version 0.3.2.03
+06/20/08
+
+New entries in word.list.

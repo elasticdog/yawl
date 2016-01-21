@@ -1,0 +1,29 @@
+                                 LICENSE
+
+The YAWL list, word.list, is in the Public Domain. There are no
+restrictions on its use or distribution.
+
+The author decided to release the list into the Public Domain because
+it is based primarily on other Public Domain lists by the author and
+his colleague, Alan Beale, and applying the stricter GPL to it would
+therefore be of doubtful validity.
+
+The author has also released the source code to "anagram" and "multi"
+(multiple word anagram) into the Public Domain. He had previously posted
+these utilities on the "alt.sources" newsgroup in shar archive form.
+
+The author has released his "wstrings.sh" script into the
+Public Domain. It is part of his "Advanced Bash Scripting Guide"
+[http://www.tldp.org/LDP/abs/html/] which is hosted on the Linux
+Documentation Project (http://www.tldp.org).
+
+
+Please feel free to use the word list and/or source code in your own
+projects.  It is, in fact, the intent of the author that this package
+inspire word game software for the Linux platform. If you use any
+portion of YAWL, please, as a courtesy, give credit to its author.
+
+
+Note that "Public Domain" *means* Public Domain. Even if portions or the
+whole of this package are incorporated into a commercial or proprietary
+application, those portions of YAWL within it *remain* Public Domain.

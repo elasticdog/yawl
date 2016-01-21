@@ -1,0 +1,28 @@
+Begin4
+Title:  Yet Another Word List (YAWL)
+Version:  0.3.2.02
+Entered-date: 2008-05-12
+Description:  This is a comprehensive "word game" word list for UNIX/Linux. It
+              is a superset of the author's ENABLE list, the "OSW", and
+	      various lists researched by the author's colleague, Alan
+	      Beale.  At 264,093 words, it is the largest list of its
+	      kind, suitable for use in all manners of crossword-type
+	      board games and word construction games, as well as for a
+	      spell checker dictionary.  The YAWL package now includes
+	      two anagramming utilities (supplied as source code,
+	      handled by the included Makefile).
+
+Keywords: Scrabble dictionary wordlist Boggle anagram
+
+Author: thegrendel@theriver.com (Mendel Cooper)
+Maintained-by: thegrendel@theriver.com (Mendel Cooper) 
+Primary-site: ibiblio.org /pub/linux/libs
+              703k yawl-0.3.2.tar.gz
+Alternate-site: http://personal.riverusers.com/~thegrendel/yawl-0.3.2.tar.gz
+Original-site:
+Platforms: Linux
+           Generic UNIX
+	   *No support for SCO UNIX
+	   *No support for MS Windows
+Copying-policy: PD
+End

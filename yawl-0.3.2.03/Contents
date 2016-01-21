@@ -1,0 +1,20 @@
+                Contents of This Archive
+
+
+
+INSTALL                     Installation instructions
+LICENSE                     Public Domain release license
+change.log                  List of changes since first release
+README                      Documentation
+Makefile                    The "Makefile" for building and installing
+                            the word list, binaries, and man pages
+
+yawl-0.3.2.lsm             "Linux Software Map" descriptor file
+word.list                   The yawl word list itself
+sigword.list                The authors list of "signature words" 
+anagram.c                   Source code for the anagram utility
+anagram.1                   Man page for the anagram utility
+multi.c                     Source code for the multiple word anagram utility
+multi.1                     Man page for the multiple word anagram utility
+wstrings.sh                 Shell script utility (enhanced "strings" command)
+Contents                    This file
